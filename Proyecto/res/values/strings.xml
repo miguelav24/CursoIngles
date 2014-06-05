@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ProyectoActivity!</string>
+    <string name="app_name">Proyecto</string>
+    <string name="eTitulo">CURSO DE INGLÉS</string>
+    <string name="eAudiolibros">AUDIOLIBROS</string>
+    <string name="eLibros">LIBROS</string>
+    <string name="eEjercicios">EJERCICIOS</string>
+    <string name="eSalir">SALIR</string>
+    <string name="eTeoria">TEORIA</string>
+    <string name="eAtras">ATRAS</string>
+    <string name="eTituloTeoria">LESSON INDEX</string>
+</resources>

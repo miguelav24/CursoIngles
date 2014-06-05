@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<RelativeLayout
+	  
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:background="@drawable/degradado"
+	
+	  >
+		<Button
+			android:id="@+id/imagenBoton"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="163px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton2"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="197px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton3"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="265px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton4"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="299px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton5"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="367px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton6"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="401px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton7"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="469px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton8"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="503px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton9"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="567px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/imagenBoton10"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="601px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton11"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="693px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/imagenBoton12"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="726px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/imagenBoton13"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="791px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/imagenBoton14"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="824px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton15"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="914px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/imagenBoton16"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="947px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar14"
+			>
+		</Button>
+		
+		
+		
+		<TextView
+			android:id="@+id/nota1"
+			android:text="Los cuantificadores indican la cantitad de un nombre. Al igual que los artículos, los cuantificadores definen a un nombre y siempre están situados delante del nombre."
+			android:layout_width="400px"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="60px"
+			android:layout_marginLeft="45px"
+			android:textSize="19px"
+			android:textColor="#FFFFFF">
+		</TextView>
+		
+		
+		
+	  	<TableLayout
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:stretchColumns="1"
+	  		>
+	  		
+	  		<TableRow
+	  			android:id="@+id/cabecera"
+	  			android:layout_width="fill_parent"
+	  			android:layout_height="wrap_content"
+	  			>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna1"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="20px"
+	  				android:layout_marginTop="4px"
+	  				android:layout_marginLeft="25px"
+	  				android:text="ENGLISH"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="26px"
+	  				
+	  			/>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna2"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="20px"
+	  				android:layout_marginTop="4px"
+	  				android:layout_marginLeft="90px"
+	  				android:text="ESPAÑOL"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="26px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<FrameLayout 
+	  				android:id="@+id/lineaCabecera"
+	  				android:layout_width="fill_parent"
+	  				android:layout_height="3px"
+	  				android:layout_span="2"
+	  				android:background="#FFCCEE"
+	  				android:layout_marginTop="3.5px"
+	  			></FrameLayout>
+	  		</TableRow>
+	  	</TableLayout>
+	  	
+	  	<TableLayout 
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="150px"
+	  		android:stretchColumns="1">
+	  			
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Many"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:text="Mucho"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="How many cats"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="¿Cuántos gatos tienes?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="do you have?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text=""
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+
+	  		</TableRow>
+	  		
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Much"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:text="Mucho"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="How much money"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="¿Cuánto dinero tiene?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			
+	  			
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="does he have?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text=""
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			
+	  		
+	  		</TableRow>
+	  		
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Some"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:text="Algunos/Unos"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="There is some milk"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Hay leche en la cocina"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="in the kitchen"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text=""
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Any"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:text="Algunos/Ninguno"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Are there any changes?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="¿Hay algunos cambios?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text=" I don't have any cats"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="No tengo ningún gato"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="No/None"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:text="No/ninguno"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="There are no pencils"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="No hay lápices"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="19px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="How many pencils"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="¿Cuántos lápices hay?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="are there? None"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Ninguno"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="A lot of/Lots of"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="33px"
+	  				android:text="Mucho/s"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="He has a lot of books"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Tiene muchos libros"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="I have lots of money"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Tengo mucho dinero"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Little/A little"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="33px"
+	  				android:text="Poco/s"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Do you have a"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="¿Tienes un poco"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="little money?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="de dinero?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="We have little time"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Tenemos poco tiempo"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Few/A few"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="33px"
+	  				android:text="Poco/s"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="8px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Do you have a"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="¿Tienes unos dolares?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="few dollars?"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text=""
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="There are few tourists"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="Hay pocos turistas"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="2px"
+	  				android:text="here today"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="35px"
+	  				android:layout_marginTop="2px"
+	  				android:text="aquí hoy"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="18px"
+
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		
+
+	  	</TableLayout>
+	  	
+
+	  	
+	  	
+	  	
+	  	<Button
+			android:id="@+id/botonExamen"
+			android:text="Test"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="1120px"
+			android:layout_marginLeft="85px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irTest"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/botonMenu"
+			android:text="Menu"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="1170px"
+			android:layout_marginLeft="85px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowDy="2"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irMenu"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/botonSiguiente"
+			android:text="Next"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="1120px"
+			android:layout_marginLeft="285px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irSiguiente"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/botonLecciones"
+			android:text="Lessons"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="1170px"
+			android:layout_marginLeft="285px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irLecciones"
+			>
+		</Button>
+		
+		
+	    
+	</RelativeLayout>
+
+</ScrollView>
+

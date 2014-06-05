@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="proyecto.com"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".ProyectoActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Audiolibros"
+                  android:label="Audiolibros">
+
+        </activity>
+        
+        <activity android:name=".Libros"
+                  android:label="Libros">
+
+        </activity>
+        
+         <activity android:name=".Lector"
+                  android:label="Lector">
+
+        </activity>
+        
+        <activity android:name=".Reproductor"
+                  android:label="Reproductor">
+
+        </activity>
+        
+        <activity android:name=".Teoria"
+                  android:label="Teoria">
+
+        </activity>
+        
+        <activity android:name=".Unit1"
+                  android:label="UNIT 1: PRONOUNS">
+
+        </activity>
+        
+        <activity android:name=".Unit2"
+                  android:label="UNIT 2: THE ARTICLE">
+
+        </activity>
+        
+        <activity android:name=".Unit3"
+                  android:label="UNIT 3: PREPOSITIONS">
+
+        </activity>
+        
+        <activity android:name=".Unit4"
+                  android:label="UNIT 4: NOUNS">
+
+        </activity>
+        
+        <activity android:name=".Lesson1"
+                  android:label="LESSON 1: PERSONAL PRONOUNS(I)">
+
+        </activity>
+        
+        <activity android:name=".Lesson1_1"
+                  android:label="LESSON 1: PERSONAL PRONOUNS(II)">
+
+        </activity>
+        
+        <activity android:name=".Test1"
+                  android:label="TEST 1: PERSONAL PRONOUNS(I)">
+
+        </activity>
+        
+        <activity android:name=".Lesson2"
+                  android:label="LESSON 2: POSSESIVE PRONOUNS(I)">
+
+        </activity>
+        
+        <activity android:name=".Lesson2_2"
+                  android:label="LESSON 2: POSSESIVE PRONOUNS(II)">
+
+        </activity>
+        
+        <activity android:name=".Lesson3"
+                  android:label="LESSON 3: DEMONSTRATIVE PRONOUNS">
+        </activity>
+        
+        <activity android:name=".Lesson4"
+                  android:label="LESSON 4: REFLEXIVE PRONOUNS">
+        </activity>
+        
+        <activity android:name=".Lesson5"
+                  android:label="LESSON 5: THE DEFINITE ARTICLE">
+        </activity>
+        
+        <activity android:name=".Lesson6"
+                  android:label="LESSON 6: THE INDEFINITE ARTICLE">
+        </activity>
+        
+        <activity android:name=".Lesson7"
+                  android:label="LESSON 7: PREPOSITIONS">
+        </activity>
+        
+        <activity android:name=".Lesson8"
+                  android:label="LESSON 8: PREPOSITIONS OF PLACE">
+        </activity>
+        
+        <activity android:name=".Lesson9"
+                  android:label="LESSON 9: PREPOSITIONS OF TIME">
+        </activity>
+        
+        <activity android:name=".Lesson10"
+                  android:label="LESSON 10: PREPOSITIONS OF MOVEMENT">
+        </activity>
+        
+        <activity android:name=".Lesson11"
+                  android:label="LESSON 11: NOUNS">
+        </activity>
+        
+        <activity android:name=".Lesson12"
+                  android:label="LESSON 12: PROPER NOUNS">
+        </activity>
+        
+        <activity android:name=".Lesson13"
+                  android:label="LESSON 13: COUNTABLE / UNCOUNTABLE">
+        </activity>
+        
+        <activity android:name=".Lesson14"
+                  android:label="LESSON 14: QUANTIFIERS">
+        </activity>
+        
+        <activity android:name=".Unit2"
+                  android:label="Unit2">
+
+        </activity>
+        
+        <activity android:name=".Unit3"
+                  android:label="Unit3">
+
+        </activity>
+
+    </application>
+</manifest>

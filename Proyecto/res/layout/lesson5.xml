@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<RelativeLayout
+	  
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:background="@drawable/degradado"
+	
+	  >
+		<Button
+			android:id="@+id/imagenBoton"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="228px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton2"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="260px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton3"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="307px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton4"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="339px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton5"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="385px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton6"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="416px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton7"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="590px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton8"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="625px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+	  			
+	  	<Button
+			android:id="@+id/imagenBoton9"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="660px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		
+		
+		<TextView
+			android:id="@+id/nota1"
+			android:text="Los artículos en inglés a diferencia del castellano no tienen género ni forma plural. En castellano decimos 'el coche' o 'las casas' y en inglés es 'the car' y 'the houses'. 'The' corresponde a los siguientes artículos en español: el, la, los, las."
+			android:layout_width="400px"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="60px"
+			android:layout_marginLeft="45px"
+			android:textSize="20px"
+			android:textColor="#FFFFFF">
+		</TextView>
+		
+		<TextView
+			android:id="@+id/nota2"
+			android:text="También podemos usarlos con los nombres de regiones geológicas, cadenas de montañas, mares, océanos, grupos de islas, ríos y países en plural."
+			android:layout_width="400px"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="470px"
+			android:layout_marginLeft="45px"
+			android:textSize="20px"
+			android:textColor="#FFFFFF">
+		</TextView>
+		
+	  	<TableLayout
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:stretchColumns="1"
+	  		>
+	  		
+	  		
+	  		
+	  		<TableRow
+	  			android:id="@+id/cabecera"
+	  			android:layout_width="fill_parent"
+	  			android:layout_height="wrap_content"
+	  			>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna1"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="20px"
+	  				android:layout_marginTop="4px"
+	  				android:layout_marginLeft="25px"
+	  				android:text="ENGLISH"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="26px"
+	  				
+	  			/>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna2"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="20px"
+	  				android:layout_marginTop="4px"
+	  				android:layout_marginLeft="90px"
+	  				android:text="ESPAÑOL"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="26px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<FrameLayout 
+	  				android:id="@+id/lineaCabecera"
+	  				android:layout_width="fill_parent"
+	  				android:layout_height="3px"
+	  				android:layout_span="2"
+	  				android:background="#FFCCEE"
+	  				android:layout_marginTop="3.5px"
+	  			></FrameLayout>
+	  		</TableRow>
+	  	</TableLayout>
+	  	
+	  	<TableLayout 
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="210px"
+	  		android:stretchColumns="1">
+	  			
+	  		<TableRow>
+	  		
+	  			
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="El"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The boy is happy"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="El niño está feliz"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="La"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The table is little"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="La mesa es pequeña"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Las"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The girls are funny"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Las chicas son divertidas"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  		</TableRow>
+
+	  	</TableLayout>
+	  	
+	  	<TableLayout
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="590px"
+	  		android:stretchColumns="1"
+	  		>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="The Atlantic Ocean"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="El océano Atlántico"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="8px"
+	  				android:text="The Netherlands"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="8px"
+	  				android:text="Los Paises Bajos"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  		</TableRow>
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="8px"
+	  				android:text="The Nile River"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="8px"
+	  				android:text="El río Nilo"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		
+	  	</TableLayout>
+	  	
+	  	<Button
+			android:id="@+id/botonExamen"
+			android:text="Test"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="700px"
+			android:layout_marginLeft="85px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irTest"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/botonMenu"
+			android:text="Menu"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="750px"
+			android:layout_marginLeft="85px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowDy="2"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irMenu"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/botonSiguiente"
+			android:text="Next"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="700px"
+			android:layout_marginLeft="285px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irSiguiente"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/botonLecciones"
+			android:text="Lessons"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="750px"
+			android:layout_marginLeft="285px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irLecciones"
+			>
+		</Button>
+	    
+	</RelativeLayout>
+
+</ScrollView>

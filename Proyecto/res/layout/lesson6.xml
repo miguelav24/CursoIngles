@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<RelativeLayout
+	  
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:background="@drawable/degradado"
+	
+	  >
+		<Button
+			android:id="@+id/imagenBoton"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="179px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton2"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="211px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton3"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="243px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton4"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="368px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton5"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="402px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton6"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="531px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton7"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="565px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/imagenBoton8"
+			android:layout_width="28px"
+			android:layout_height="28px"
+			android:layout_below="@+id/columna5"
+			android:layout_marginTop="599px"
+			android:layout_marginLeft="10px"
+			android:padding="0dp"
+			android:background="@drawable/redplay"
+			android:onClick="iniciar"
+			>
+		</Button>
+	  			
+	  	
+		
+		
+		
+		<TextView
+			android:id="@+id/nota1"
+			android:text="El significado de 'a' o 'an' es el mismo. 'A' se usa para nombres que empiezan por consonante mientras que 'an' se utiliza para nombres que empiezan por vocal."
+			android:layout_width="400px"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="60px"
+			android:layout_marginLeft="45px"
+			android:textSize="20px"
+			android:textColor="#FFFFFF">
+		</TextView>
+		
+		<TextView
+			android:id="@+id/nota2"
+			android:text="En inglés sólo se usa el artículo indefinido en singular. En plural simplemente se omite:"
+			android:layout_width="400px"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="285px"
+			android:layout_marginLeft="45px"
+			android:textSize="20px"
+			android:textColor="#FFFFFF">
+		</TextView>
+		
+		<TextView
+			android:id="@+id/nota2"
+			android:text="Excepciones: Usamos 'a' antes de las palabras que comienzan por la letras 'u', 'eu' o 'h' muda"
+			android:layout_width="400px"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="445px"
+			android:layout_marginLeft="45px"
+			android:textSize="20px"
+			android:textColor="#FFFFFF">
+		</TextView>
+		
+	  	<TableLayout
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:stretchColumns="1"
+	  		>
+	  		
+	  		<TableRow
+	  			android:id="@+id/cabecera"
+	  			android:layout_width="fill_parent"
+	  			android:layout_height="wrap_content"
+	  			>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna1"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="20px"
+	  				android:layout_marginTop="4px"
+	  				android:layout_marginLeft="25px"
+	  				android:text="ENGLISH"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="26px"
+	  				
+	  			/>
+	  			
+	  			<TextView 
+	  				android:id="@+id/columna2"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="20px"
+	  				android:layout_marginTop="4px"
+	  				android:layout_marginLeft="90px"
+	  				android:text="ESPAÑOL"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="26px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<FrameLayout 
+	  				android:id="@+id/lineaCabecera"
+	  				android:layout_width="fill_parent"
+	  				android:layout_height="3px"
+	  				android:layout_span="2"
+	  				android:background="#FFCCEE"
+	  				android:layout_marginTop="3.5px"
+	  			></FrameLayout>
+	  		</TableRow>
+	  	</TableLayout>
+	  	
+	  	<TableLayout 
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="160px"
+	  		android:stretchColumns="1">
+	  			
+	  		<TableRow>
+  			
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="A/An"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Un/Una"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="28px"
+	  				android:layout_marginTop="13px"
+	  			/>
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="A book"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:text="Un libro"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="I want an orange"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="Quiero una naranja"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		
+
+	  	</TableLayout>
+	  	
+	  	<TableLayout 
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="363px"
+	  		android:stretchColumns="1">
+	  	
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="I have a dog"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="88px"
+	  				android:layout_marginTop="6px"
+	  				android:text="Tengo un perro"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="I have dogs"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="88px"
+	  				android:layout_marginTop="6px"
+	  				android:text="Tengo unos perros"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  	</TableLayout>
+	  	
+	  	<TableLayout 
+	  		android:id="@+id/tabla"
+	  		android:layout_width="match_parent"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="525px"
+	  		android:stretchColumns="1">
+	  	
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="A university"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="92px"
+	  				android:layout_marginTop="6px"
+	  				android:text="Una universidad"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="A euro"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="92px"
+	  				android:layout_marginTop="6px"
+	  				android:text="Un euro"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  		
+	  		<TableRow>
+	  			<TextView 
+	  				android:id="@+id/columna5"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="45px"
+	  				android:layout_marginTop="6px"
+	  				android:text="A hospital"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			<TextView 
+	  				android:id="@+id/columna6"
+	  				android:layout_width="wrap_content"
+	  				android:layout_height="wrap_content"
+	  				android:paddingLeft="92px"
+	  				android:layout_marginTop="6px"
+	  				android:text="Un hospital"
+	  				android:textColor="#FFFFFF"
+	  				android:textSize="20px"
+	  			/>
+	  			
+	  		</TableRow>
+	  	</TableLayout>
+	  	
+	  	
+	  	
+	  	<Button
+			android:id="@+id/botonExamen"
+			android:text="Test"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="700px"
+			android:layout_marginLeft="85px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irTest"
+			>
+		</Button>
+	  	
+	  	<Button
+			android:id="@+id/botonMenu"
+			android:text="Menu"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="750px"
+			android:layout_marginLeft="85px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowDy="2"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irMenu"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/botonSiguiente"
+			android:text="Next"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="700px"
+			android:layout_marginLeft="285px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irSiguiente"
+			>
+		</Button>
+		
+		<Button
+			android:id="@+id/botonLecciones"
+			android:text="Lessons"
+			android:layout_width="110px"
+			android:layout_height="40px"
+			android:layout_marginTop="750px"
+			android:layout_marginLeft="285px"
+			android:background="#EE0038"
+			android:textColor="#FFFFFF"
+			android:shadowRadius="5"
+			android:shadowColor="#FFFFFF"
+			android:textSize="25px"
+			android:onClick="irLecciones"
+			>
+		</Button>
+	    
+	</RelativeLayout>
+
+</ScrollView>
